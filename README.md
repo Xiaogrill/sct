@@ -2,13 +2,19 @@
 Simple program for setting the color balance in X11 - same functionality as
 redshift/f.lux, without the automation.
 
-# installation
+## installation
 `make install`
 
-# usage
+## usage
 * For comfortable evening colors:
-`sct 3000`
+```
+sct 3000
+```
 * Resetting to normal colors:
-`sct`
+```
+sct
+```
 * Caffeine replacement:
-`sct 10000`
+```
+sct 10000
+```
