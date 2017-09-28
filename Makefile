@@ -6,14 +6,12 @@ sct:
 	gcc sct.c -o sct $(FLAGS) $(LIBS)
 
 clean:
-	rm -f sct
+	rm sct
 
-install:
+install: sct
 	install -m 0755 sct $(TARGETDIR)
 
 uninstall:
 	rm -f $(TARGETDIR)/sct
 
-all: sct
-
-.PHONY: clean install all uninstall
+.PHONY: clean install uninstall

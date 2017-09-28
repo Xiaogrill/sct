@@ -1,9 +1,12 @@
-# sct
+# sct (screen color temperature)
 Simple program for setting the color balance in X11 - same functionality as
-redshift/f.lux, without the automation.
+redshift/f.lux, without the automation and bloat.
 
-## installation
-`make install`
+## installation / uninstallation
+```
+make install
+make uninstall
+```
 
 ## usage
 * For comfortable evening colors:
